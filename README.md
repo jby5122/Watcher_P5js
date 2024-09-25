@@ -11,10 +11,9 @@ Welcome! This project is the basic template of how to connect watcher to your p5
 Download the SenseCraft App, bind your watcher, set the Wi-Fi to be the same as your laptop
 
 
-<img src="https://github.com/user-attachments/assets/1309f17e-f78e-430b-b932-4cfeb6fac135" alt="Description" width="500"/>
+<img src="https://github.com/user-attachments/assets/1309f17e-f78e-430b-b932-4cfeb6fac135" alt="Description" width="200"/>
 
-
-![wecom-temp-186122-ec0ec7a33dd1178a6a9b48c4b323899e](https://github.com/user-attachments/assets/e27affbe-4f5c-4d59-b4e8-87692f420d3e)
+<img src="https://github.com/user-attachments/assets/e27affbe-4f5c-4d59-b4e8-87692f420d3e" alt="Description" width="200"/>
 
 
 ### 2.2 get your laptop ip
