@@ -42,27 +42,33 @@ You should see this after you run this line
 ### 5 What is received on http
 When the detection happens, watcher will send out a json like this
 ```
-received POST data: {
-  requestId: '968dc122-cd29-4db9-xxxx-a8dd0a85ecb4',
-  deviceEui: '2CF7F1C9xxxxxx6A',
-  events: {
-    timestamp: 1727232562287,
-    text: 'Two hands',
-    img: '/9j/4AAQSkZJRgABAQE... //the base64 image code)
-    data://this only shows up if you are using a tinyML model where it will draw out the detection box around the object
-      inference: 
-        boxes:
-          0: 
-            [86, //box x
-            228, //box y
-            173, //box w
-            234, //box h
-            90, //confident score
-            0] //classes_name id
-        classes_name:
-          0: "human"
-          1: "dog"
-          2: "cat"
+
+{
+    "requestId": "5686b647-1a6d-4e50-8d2a-b5166a5f9c5b",
+    "deviceEui": "2CF7F1C96270006A",
+    "events": {
+        "timestamp": 1727256084744,
+        "text": "texttext",
+        "img": "/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABsSFBcU...AAAAA=", //the base64 image code
+        "data": {
+            "inference": {
+                "boxes": [
+                    [
+                        213, //box x
+                        213, //box y
+                        389, //box w
+                        340, //box h
+                        89, //confident score
+                        0   ////classes_name id
+                    ]
+                ],
+                "classes_name": [
+                    "person"
+                ]
+            }
+        }
+    }
+}
 ```
 with this json, now you can manipulate the data in whatever ways you want. In this fireworks example sketch.js, I have 
 ```
