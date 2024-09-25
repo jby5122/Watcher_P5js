@@ -1,6 +1,8 @@
 ## 🎆🎆 Welcome! 
 This project is the basic template of how to connect watcher to your p5.js sketch using http if you want to add fun computer vision interaction to your creative coding. This demo is to play fireworks effect when detecting person.
 
+![](https://github.com/jby5122/Watcher_P5js/blob/b50e4d722dde7635ad41b7ea172ca5d6f921b8a4/watcher%20fireworks.gif)
+
 ## What is SenseCAP Watcher
 
 - SenseCAP Watcher is an AI watcher to help you monitor anomaly within a space and then take actions, it runs with tinyML model such as simple object detections, but it also contains the power of LLM to actually understand what is captured in the camera. 
