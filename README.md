@@ -17,7 +17,9 @@ Send out any task, here I choose to detect human body, but there are so many mor
 <img src="https://github.com/user-attachments/assets/4d37df27-9586-49ea-8a65-95d29eef19b2" alt="set action" width="200"/>
 
 After you run the task, watcher will enter the detecting mode:
+
 <img src="https://github.com/user-attachments/assets/5c135805-a4fd-45ae-9d55-f20d9fa7fa24" alt="set action" width="200"/>
+
 Fun fact: You can also customize Watcher digital avatar so that the detecting face can be any animation you want.
 
 ### 2.2 get your laptop ip
