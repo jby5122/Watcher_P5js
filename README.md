@@ -1,15 +1,17 @@
-Welcome! This project is the basic template of how to connect watcher to your p5.js sketch using http if you want to add fun computer vision interaction to your creative coding. This demo is to play fireworks effect when detecting person.
+## 🎆🎆 Welcome! 
+This project is the basic template of how to connect watcher to your p5.js sketch using http if you want to add fun computer vision interaction to your creative coding. This demo is to play fireworks effect when detecting person.
 
 ## 1 What is SenseCAP Watcher
 
 - SenseCAP Watcher is an AI watcher to help you monitor anomaly within a space and then take actions, it runs with tinyML model such as simple object detections, but it also contains the power of LLM to actually understand what is captured in the camera. 
 - E.g., you can ask it for just detecting human body, or you can ask if the person is smoking. Think about what fun interaction you want for your creative coding.
 - After detecting what you want in the space, it can send out the message and captured image to multiple platforms, such as a desired http address for software, or through the port on the back to arduino or raspberry pi for hardware.
+- More info on [kickstarter](https://www.kickstarter.com/projects/seeed/sensecap-watcher-open-source-ai-assistant-for-smarter-spaces)
 
 ## 2 Steps to use this project
 ### 2.1 Set up watcher
-Download the SenseCraft App, bind your watcher, make sure the watcher's Wi-Fi is same as your laptop.
-Send out any task, here I choose to detect human body, but there so many more to play with.
+Download the SenseCraft App, bind your watcher, make sure the watcher's **Wi-Fi is same as your laptop**.
+Send out any task, here I choose to detect human body, but there are so many more to play with.
 
 <img src="https://github.com/user-attachments/assets/08587eeb-c9e1-4d4a-98eb-a01bb9962074" alt="send task" width="200"/>
 <img src="https://github.com/user-attachments/assets/4d37df27-9586-49ea-8a65-95d29eef19b2" alt="set action" width="200"/>
@@ -63,16 +65,22 @@ if (data && data.content.events.text == "play fireworks") {
       triggerFireworks();
     }
 ```
-Which means if watcher detect a person, then it will send out "play fireworks" text to the http. Then once this message is passed in the sketch.js, my fireworks effect will be trigger.
+Which means if watcher detects a person, then it will send out "play fireworks" text to the http. Then once this message is passed in the sketch.js, my fireworks effect will be triggered.
 
-# What you can do
+# 3 What you can do
 I think watcher greatly handles messy hardware and the computer vision part where one can quickly combine what is in reality with your creative coding.
   - Seeing your cat eating, pop up a cat eating particle effects on your laptop
   - If a white shirt person passes by, draw out beautiful patterns on their shirt
   - Every time an apple shows up, the apple item in your game will ++
   -...
 
-The imagination for creative coding is unlimited, where we can focus more on what we want to deliver rather than solving technical difficulties. Communicate to watcher with our nature language is so awesome and no code switching different models just save lots of debugging time. 
+The imagination for creative coding is unlimited, where we can focus more on what we want to deliver rather than solving technical difficulties. Communicating to watcher with our natural language is so awesome and no-code switching different models just saves lots of debugging time. 
 
-# Others
-The creative coding is based on p5.js. But you can choose any other platforms based on your preference. All you need is a connection between watcher, server, and your front-end behaviors. 
+# 4 Others
+The creative coding is based on [p5.js](https://p5js.org/). But you can choose any other platforms based on your preference. All you need is a connection between watcher, server, and your front-end behaviors. 
+
+Inspiration platforms you might be interested:
+- [OpenProcessing](https://openprocessing.org/)
+- [Particles in js](https://particles.js.org/)
+- [tsParticles](https://codepen.io/collection/DPOage)
+- [three js](https://threejs.org/)
