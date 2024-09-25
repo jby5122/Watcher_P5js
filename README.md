@@ -8,13 +8,10 @@ Welcome! This project is the basic template of how to connect watcher to your p5
 
 ## 2 Steps to use this project
 ### 2.1 Set up watcher
-Download the SenseCraft App, bind your watcher, set the Wi-Fi to be the same as your laptop
-
-
-<img src="https://github.com/user-attachments/assets/1309f17e-f78e-430b-b932-4cfeb6fac135" alt="Description" width="200"/>
-
-<img src="https://github.com/user-attachments/assets/e27affbe-4f5c-4d59-b4e8-87692f420d3e" alt="Description" width="200"/>
-
+Download the SenseCraft App, bind your watcher, make sure the watcher's Wi-Fi is same as your laptop.
+Send out any task, here I choose to detect human body, but there so many more to play with.
+<img src="https://github.com/user-attachments/assets/08587eeb-c9e1-4d4a-98eb-a01bb9962074" alt="send task" width="200"/>
+<img src="https://github.com/user-attachments/assets/4d37df27-9586-49ea-8a65-95d29eef19b2" alt="set action" width="200"/>
 
 ### 2.2 get your laptop ip
 In your terminal, type in this and locate the `en0`, then look for the `inet` Entry. It usually starts with `192.168`, `10.x`, or `172.16` to `172.31`. 
@@ -22,7 +19,8 @@ In your terminal, type in this and locate the `en0`, then look for the `inet` En
 ifconfig 
 ```
 ### 2.3 enter the ip address in you watcher setting 
-[insert images here]
+<img src="https://github.com/user-attachments/assets/1309f17e-f78e-430b-b932-4cfeb6fac135" alt="Description" width="200"/>
+<img src="https://github.com/user-attachments/assets/e27affbe-4f5c-4d59-b4e8-87692f420d3e" alt="Description" width="200"/>
 
 ### 2.4 Server.js
 This file runs a local server on your computer, where it will receive the message at the port number you put in. I use 3000 here, but you can change it to other port if needed. Then you can run the file in the terminal.
