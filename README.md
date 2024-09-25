@@ -10,6 +10,7 @@ Welcome! This project is the basic template of how to connect watcher to your p5
 ### 2.1 Set up watcher
 Download the SenseCraft App, bind your watcher, make sure the watcher's Wi-Fi is same as your laptop.
 Send out any task, here I choose to detect human body, but there so many more to play with.
+
 <img src="https://github.com/user-attachments/assets/08587eeb-c9e1-4d4a-98eb-a01bb9962074" alt="send task" width="200"/>
 <img src="https://github.com/user-attachments/assets/4d37df27-9586-49ea-8a65-95d29eef19b2" alt="set action" width="200"/>
 
@@ -72,3 +73,6 @@ I think watcher greatly handles messy hardware and the computer vision part wher
   -...
 
 The imagination for creative coding is unlimited, where we can focus more on what we want to deliver rather than solving technical difficulties. Communicate to watcher with our nature language is so awesome and no code switching different models just save lots of debugging time. 
+
+# Others
+The creative coding is based on p5.js. But you can choose any other platforms based on your preference. All you need is a connection between watcher, server, and your front-end behaviors. 
