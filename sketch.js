@@ -21,8 +21,8 @@ let fsButton;
 let bgImage;
 
 function preload() {
-  font = loadFont('Montserrat-Medium.otf'); // Load your desired font
-  bgImage = loadImage('backgroundImage/night6.png');
+  font = loadFont('asset/Montserrat-Medium.otf'); // Load your desired font
+  bgImage = loadImage('asset/night6.png');
 }
 
 function setup() {
